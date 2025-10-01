@@ -41,7 +41,7 @@ PRICING_DATA = {
         "output": 75.00
     },
     "claude-sonnet-4-5-20250929": {
-        "name": "Claude Sonnet 4",
+        "name": "Claude Sonnet 4.5",
         "input": 3.00,
         "cache_write_5m": 3.75,
         "cache_write_1h": 6.00,
