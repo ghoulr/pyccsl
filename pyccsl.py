@@ -19,7 +19,7 @@ import subprocess
 from datetime import datetime, timedelta
 import argparse
 
-__version__ = "0.9.36"
+__version__ = "0.9.37"
 
 # Pricing data embedded from https://docs.anthropic.com/en/docs/about-claude/pricing
 # All prices in USD per million tokens
@@ -39,6 +39,14 @@ PRICING_DATA = {
         "cache_write_1h": 30.00,
         "cache_read": 1.50,
         "output": 75.00
+    },
+    "claude-sonnet-4-5-20250929": {
+        "name": "Claude Sonnet 4",
+        "input": 3.00,
+        "cache_write_5m": 3.75,
+        "cache_write_1h": 6.00,
+        "cache_read": 0.30,
+        "output": 15.00
     },
     "claude-sonnet-4-20250514": {
         "name": "Claude Sonnet 4",
